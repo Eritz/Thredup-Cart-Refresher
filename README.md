@@ -10,6 +10,8 @@ re-add all linked items.
 ## To-Do-List
 - Chrome support
 - Use multiple tabs
-- Clean code for improved speed and readability
-  * use def main()
 
+## Changelog
+
+*v1.0.0*
+- Improved readability and minor fixes to the script
