@@ -1,6 +1,6 @@
 # Thredup_bot
 
-## Description:
+## Description
 After inputting the account information, the script will request and save the links of
 all target items. It will open Firefox to login, empty out all items in the account's cart, and
 re-add all linked items.
