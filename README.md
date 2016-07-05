@@ -10,5 +10,5 @@ re-add all linked items.
 
 ## To-Do-List
 - Chrome support
-- Enhance reliability and speedier operations
+- Improve reliability and speedier operations
 
