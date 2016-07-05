@@ -14,4 +14,4 @@ re-add all linked items.
 ## Changelog
 
 *v1.0.0*
-- Improved readability and minor fixes to the script
+- Code cleanup
