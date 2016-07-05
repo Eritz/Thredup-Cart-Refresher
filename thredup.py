@@ -4,17 +4,16 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
-''' This script refreshes items added inside one's Thredup account's
-cart. It first collects the links of each of the wanted items, removes the items from the cart,
-and re-adds them back.
-Note: Firefox MUST BE INSTALLED for this script to function.'''
+''' After inputting the account information, the script will request and save the links of all target items. 
+It will open Firefox to login, empty out all items in the account's cart, and re-add all linked items.
+Note: The script requires Firefox to be installed and a Thredup account.'''
 
 item_list = []
 cart_link = 'https://www.thredup.com/cart/edit'
 user_email = str(input('Please enter your Thredup email account. ' ))
 user_pass = str(input('Please enter your Thredup password. '))
 
-# This opens up ThredUp's cart detail page and removes all the items.
+# Remove and re-add items from cart.
 class Cart:
     def cart_remove(self):
         self.browser = webdriver.Firefox()
@@ -46,7 +45,7 @@ class Cart:
         print('Finished adding items.')
         self.browser.get(cart_link)
 
-# This get a list of the links of items to be added into the cart.
+# Create a list for items to be added later.
 def link_to_items():
     number = 1
     print('Please paste the links of the items that \n''you would want added to the cart.\n')
