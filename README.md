@@ -10,5 +10,7 @@ re-add all linked items.
 
 ## To-Do-List
 - Chrome support
-- Improve reliability and speedier operations
+- Use multiple tabs
+- Clean code for improved speed and readability
+  * use def main()
 
