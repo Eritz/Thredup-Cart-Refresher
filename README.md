@@ -16,7 +16,7 @@ The program is built using Python 3.X. It operates only on Windows and requires 
 
 ## How to Use
 
-1. Run th_gui.py
+1. Run ```th_gui.py```
 2. Enter login information (not saved)
 3. Enter product links so the program can save them
 4. Press the Start button, and follow any of the program's instruction
