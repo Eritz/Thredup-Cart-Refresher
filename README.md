@@ -34,7 +34,8 @@ The program is built using Python 3.X. It operates only on Windows and requires 
 
 *v2.0.0*
 - Complete code revamp with working tkinter GUI
-  - Unfortunately, the code for running through the list of links and deleting that finished link follows a complexity of O(n^2). If the list gets freakishly long, then expect major delays.  
+  - Unfortunately, the code for running through the list of links and deleting that finished link follows a complexity of O(n^2). 
+  - If the list gets freakishly long, say 500, then expect major delays.  
 
 *v1.0.0*
 - Code cleanup
