@@ -9,7 +9,7 @@ The Thredup Cart Refresher provides an easy to navigate GUI to help refresh item
 
 Working as of October 29, 2016. The program supports Firefox and Chrome browsers.
 
-##Prerequisite
+## Prerequisite
 
 The program is built using Python 3.X. It operates only on Windows and requires the following library installed:
 - selenium
